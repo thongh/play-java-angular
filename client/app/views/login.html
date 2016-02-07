@@ -1,0 +1,29 @@
+
+
+    <div class="container">
+
+      <form class="form-signin" name="loginForm" ng-submit="login()">
+	  
+         <div>
+		   <!--<label for="email">Email</label>-->
+		   <input name="email" class="form-control" type="email" id="email" placeholder="Email"
+				  ng-model="email">
+		</div>
+		<br>
+		<div>
+		   <!--<label for="password">Password</label>-->
+		   <input name="password" class="form-control" type="password" id="password"
+				  placeholder="Password" ng-model="password">
+
+		</div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+      </form>
+
+    </div> <!-- /container -->
+
+
